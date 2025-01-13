@@ -9,7 +9,7 @@ const Index = () => {
       <div className="relative h-screen">
         <div className="absolute inset-0">
           <img
-            src="/lovable-uploads/ee75bf9a-2fc6-48d8-af15-5349485438b0.png"
+            src="https://images.unsplash.com/photo-1533747122906-86122ab61ee8?auto=format&fit=crop&q=80"
             alt="Hero background"
             className="w-full h-full object-cover"
           />
@@ -42,17 +42,17 @@ const Index = () => {
             <ServiceCard
               title="Portrait Photography"
               description="Get amazing portraits in matter of minutes. Book 2 days prior."
-              image="/lovable-uploads/91845562-b211-4f07-be95-dd606ff07729.png"
+              image="https://images.unsplash.com/photo-1623091411395-09e79fdbfcf3?auto=format&fit=crop&q=80"
             />
             <ServiceCard
               title="Event Photography"
               description="Capture your events in the most amazing way. Book before a week."
-              image="/lovable-uploads/ee75bf9a-2fc6-48d8-af15-5349485438b0.png"
+              image="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80"
             />
             <ServiceCard
               title="Videography"
               description="Your life and events as dreams. Top notch filmmaking for your budget."
-              image="/lovable-uploads/91845562-b211-4f07-be95-dd606ff07729.png"
+              image="https://images.unsplash.com/photo-1601506521793-dc748fc80b67?auto=format&fit=crop&q=80"
             />
           </div>
         </div>
