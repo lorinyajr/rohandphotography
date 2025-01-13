@@ -43,3 +43,12 @@
 .service-card {
   @apply bg-white rounded-lg p-6 shadow-lg transition-transform duration-300 hover:transform hover:scale-105;
 }
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+}

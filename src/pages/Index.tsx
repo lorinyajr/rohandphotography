@@ -8,10 +8,11 @@ const Index = () => {
       {/* Hero Section */}
       <div className="relative h-screen">
         <div className="absolute inset-0">
-          <img
-            src="/lovable-uploads/c411a8fa-4325-4d8c-9ef2-1bb3ac4d0656.png"
-            alt="Hero background"
-            className="w-full h-full object-cover"
+          <div 
+            className="w-full h-full parallax"
+            style={{
+              backgroundImage: `url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80')`,
+            }}
           />
           <div className="absolute inset-0 hero-overlay" />
         </div>
