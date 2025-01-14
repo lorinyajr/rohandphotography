@@ -1,20 +1,32 @@
-import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
+import { Button } from "@/components/ui/button";
+import { Check } from "lucide-react";
 
 const Services = () => {
   return (
     <div className="min-h-screen">
       <Navbar />
-      
       {/* Hero Section */}
-      <div className="relative h-[300px] bg-gradient-to-r from-primary/90 to-primary">
+      <div className="relative h-[60vh] w-full">
+        <div className="absolute inset-0 flex">
+          {/* Left side with image */}
+          <div className="w-1/3 relative overflow-hidden">
+            <img 
+              src="/lovable-uploads/5cbdf8bd-6a01-4902-a916-42f635701415.png"
+              alt="Portrait"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent to-background/90" />
+          </div>
+          {/* Right side with content */}
+          <div className="w-2/3 bg-background" />
+        </div>
+        
         <div className="absolute inset-0 flex items-center justify-center text-center">
           <div>
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
-              Our Services
-            </h1>
-            <p className="text-xl text-white">
-              Well Captured Excellence Moments of life
+            <h1 className="text-4xl md:text-6xl font-bold mb-4">Our Services</h1>
+            <p className="text-xl text-muted-foreground">
+              Capturing your precious moments with excellence
             </p>
           </div>
         </div>
