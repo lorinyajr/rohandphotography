@@ -10,7 +10,7 @@ const Services = () => {
       <div className="relative h-[300px] w-full bg-gradient-to-l from-primary/90 to-primary transition-all duration-500 ease-in-out">
         <div className="absolute inset-0 flex">
           {/* Right side with image */}
-          <div className="w-1/4 md:w-1/3 lg:w-1/4 relative overflow-hidden ml-auto transition-all duration-500 ease-in-out">
+          <div className="w-1/2 md:w-1/3 lg:w-1/4 relative overflow-hidden ml-auto transition-all duration-500 ease-in-out">
             <img 
               src="/lovable-uploads/5cbdf8bd-6a01-4902-a916-42f635701415.png"
               alt="Portrait"
