@@ -28,7 +28,7 @@ const Navbar = () => {
                 Services
               </a>
               <Button className="bg-primary hover:bg-primary/90">
-                202-555-0989
+                +254728251106
               </Button>
             </div>
           </div>
@@ -68,7 +68,7 @@ const Navbar = () => {
               Services
             </a>
             <Button className="w-full bg-primary hover:bg-primary/90">
-              202-555-0989
+              +254728251106
             </Button>
           </div>
         </div>
