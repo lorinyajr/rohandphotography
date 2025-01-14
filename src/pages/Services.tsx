@@ -7,16 +7,16 @@ const Services = () => {
     <div className="min-h-screen">
       <Navbar />
       {/* Hero Section */}
-      <div className="relative h-[300px] w-full bg-gradient-to-l from-primary/90 to-primary">
+      <div className="relative h-[300px] w-full bg-gradient-to-l from-primary/90 to-primary transition-all duration-500 ease-in-out">
         <div className="absolute inset-0 flex">
           {/* Right side with image */}
-          <div className="w-1/4 relative overflow-hidden ml-auto">
+          <div className="w-1/4 md:w-1/3 lg:w-1/4 relative overflow-hidden ml-auto transition-all duration-500 ease-in-out">
             <img 
               src="/lovable-uploads/5cbdf8bd-6a01-4902-a916-42f635701415.png"
               alt="Portrait"
-              className="absolute inset-0 w-full h-full object-cover"
+              className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-in-out hover:scale-105"
             />
-            <div className="absolute inset-0 bg-gradient-to-l from-transparent to-primary/90" />
+            <div className="absolute inset-0 bg-gradient-to-l from-transparent via-primary/50 to-primary/90 transition-opacity duration-500 ease-in-out" />
           </div>
         </div>
         
