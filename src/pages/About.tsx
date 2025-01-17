@@ -10,12 +10,12 @@ const About = () => {
       {/* Hero Section */}
       <div className="relative h-[60vh] w-full">
         <div 
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ 
-            backgroundImage: "url('/lovable-uploads/a51d266d-75ec-4ee7-afa2-827d57017b44.png')",
+            backgroundImage: "url('/lovable-uploads/91845562-b211-4f07-be95-dd606ff07729.png')",
           }}
         >
-          <div className="absolute inset-0 bg-black/50" />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/30" />
         </div>
         <div className="relative h-full flex items-center justify-center">
           <h1 className="text-6xl font-bold text-white">about me</h1>
