@@ -7,6 +7,11 @@ interface ServiceCardProps {
 }
 
 const ServiceCard = ({ title, description, image }: ServiceCardProps) => {
+  const scrollToServices = () => {
+    const servicesSection = document.getElementById('services-section');
+    servicesSection?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className="service-card">
       <img
@@ -16,7 +21,10 @@ const ServiceCard = ({ title, description, image }: ServiceCardProps) => {
       />
       <h3 className="text-xl font-semibold mb-2">{title}</h3>
       <p className="text-gray-600 mb-4">{description}</p>
-      <Button className="w-full bg-primary hover:bg-primary/90">
+      <Button 
+        className="w-full bg-primary hover:bg-primary/90"
+        onClick={scrollToServices}
+      >
         Book Now
       </Button>
     </div>

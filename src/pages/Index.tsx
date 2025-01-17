@@ -3,6 +3,11 @@ import ServiceCard from "@/components/ServiceCard";
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
+  const scrollToServices = () => {
+    const servicesSection = document.getElementById('services-section');
+    servicesSection?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -27,7 +32,11 @@ const Index = () => {
             <p className="text-xl text-white mb-8">
               The best way to preserve your memories.
             </p>
-            <Button size="lg" className="bg-primary hover:bg-primary/90">
+            <Button 
+              size="lg" 
+              className="bg-primary hover:bg-primary/90"
+              onClick={scrollToServices}
+            >
               Book Now
             </Button>
           </div>
@@ -35,7 +44,7 @@ const Index = () => {
       </div>
 
       {/* Services Section */}
-      <section className="py-20 px-4 bg-gray-50">
+      <section id="services-section" className="py-20 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12">Our Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
