@@ -69,17 +69,26 @@ const Index = () => {
 
       {/* Special Offer Section */}
       <section className="py-20 px-4">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4 text-primary">
-            Get Album at offer price
-          </h2>
-          <h3 className="text-2xl mb-8">for each booking</h3>
-          <p className="text-gray-600 mb-8">
-            Because when a visitor first lands on your website, you're a stranger to them. They have to get to know you in order to want to trust your blog posts, subscribe to your email newsletter, or buy what you're selling.
-          </p>
-          <p className="text-gray-600">
-            We are really amazed to provide you this offer and make your events memorable. You will be an amazing add-on to all your events. Your future generations will always have a piece of our every place in your heart.
-          </p>
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div className="text-center md:text-left">
+            <h2 className="text-3xl font-bold mb-4 text-primary">
+              Get photo mount at offer price
+            </h2>
+            <h3 className="text-2xl mb-8">for each booking</h3>
+            <p className="text-gray-600 mb-8">
+              Transform your cherished moments into stunning wall art with our professional photo mounting service. We use premium materials and expert techniques to preserve your photographs while creating beautiful displays for your home or office.
+            </p>
+            <p className="text-gray-600">
+              Our photo mounting service includes various options from traditional matting to modern floating mounts, ensuring your photographs are displayed in the most captivating way. Each mount is crafted with precision to enhance the visual impact of your images while protecting them for years to come.
+            </p>
+          </div>
+          <div className="relative">
+            <img
+              src="/lovable-uploads/05615199-54c9-45a5-bb32-0e2e010e7e80.png"
+              alt="Photo mounting example"
+              className="w-full rounded-lg shadow-xl"
+            />
+          </div>
         </div>
       </section>
 
