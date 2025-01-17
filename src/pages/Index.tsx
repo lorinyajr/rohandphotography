@@ -50,17 +50,17 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <ServiceCard
               title="Portrait Photography"
-              description="Get amazing portraits in matter of minutes. Book 2 days prior."
+              description="Get amazing portraits in matter of minutes. Book 2 days prior. Starting from KSH 500"
               image="https://images.unsplash.com/photo-1623091411395-09e79fdbfcf3?auto=format&fit=crop&q=80"
             />
             <ServiceCard
               title="Event Photography"
-              description="Capture your events in the most amazing way. Book before a week."
+              description="Capture your events in the most amazing way. Book before a week. Starting from KSH 500"
               image="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80"
             />
             <ServiceCard
               title="Videography"
-              description="Your life and events as dreams. Top notch filmmaking for your budget."
+              description="Your life and events as dreams. Top notch filmmaking for your budget. Starting from KSH 500"
               image="https://images.unsplash.com/photo-1601506521793-dc748fc80b67?auto=format&fit=crop&q=80"
             />
           </div>
