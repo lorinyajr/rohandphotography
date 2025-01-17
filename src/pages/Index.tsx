@@ -84,7 +84,7 @@ const Index = () => {
           </div>
           <div className="relative">
             <img
-              src="/lovable-uploads/e6048072-402e-42bc-9e4a-acc6ef489a00.png"
+              src="/lovable-uploads/c8fea826-e164-4dcc-85ad-0798737d99bc.png"
               alt="Photo mounting example"
               className="w-full rounded-lg shadow-xl"
             />
