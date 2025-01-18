@@ -107,9 +107,9 @@ const Index = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4">
+      <section className="py-12 md:py-20 px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-8">
+          <h2 className="text-xl md:text-3xl font-bold mb-6 md:mb-8">
             "With over a decade of experience capturing life's precious moments, we bring technical expertise and artistic vision to every shoot. From intimate portraits to grand events, we're dedicated to creating timeless photographs that tell your unique story. Choose us for our commitment to excellence, attention to detail, and passion for turning moments into lasting memories."
           </h2>
           <Button size="lg" className="bg-primary hover:bg-primary/90" asChild>
