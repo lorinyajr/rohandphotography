@@ -52,7 +52,7 @@ const Index = () => {
             <ServiceCard
               title="Portrait Photography"
               description="Get amazing portraits in matter of minutes. Book 2 days prior. Starting from KSH 500"
-              image="https://images.unsplash.com/photo-1623091411395-09e79fdbfcf3?auto=format&fit=crop&q=80"
+              image="/lovable-uploads/4ad8d188-35e0-4ded-b713-5b494b6177b0.png"
             />
             <ServiceCard
               title="Event Photography"
@@ -68,7 +68,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Special Offer Section */}
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="text-center md:text-left">

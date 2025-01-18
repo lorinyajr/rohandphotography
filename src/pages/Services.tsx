@@ -36,7 +36,7 @@ const Services = () => {
         {/* Portrait Photography */}
         <div className="grid md:grid-cols-2 gap-12 mb-20 items-center">
           <img
-            src="https://images.unsplash.com/photo-1623091411395-09e79fdbfcf3?auto=format&fit=crop&q=80"
+            src="/lovable-uploads/4ad8d188-35e0-4ded-b713-5b494b6177b0.png"
             alt="Portrait Photography"
             className="rounded-lg w-full h-[500px] object-cover"
           />
