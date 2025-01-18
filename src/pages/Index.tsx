@@ -110,10 +110,10 @@ const Index = () => {
       <section className="py-20 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8">
-            "Tell website visitors who you are and why they should choose your business"
+            "With over a decade of experience capturing life's precious moments, we bring technical expertise and artistic vision to every shoot. From intimate portraits to grand events, we're dedicated to creating timeless photographs that tell your unique story. Choose us for our commitment to excellence, attention to detail, and passion for turning moments into lasting memories."
           </h2>
-          <Button size="lg" className="bg-primary hover:bg-primary/90">
-            Find About me
+          <Button size="lg" className="bg-primary hover:bg-primary/90" asChild>
+            <Link to="/about">Find About me</Link>
           </Button>
         </div>
       </section>
