@@ -59,7 +59,7 @@ const Services = () => {
         <div className="grid md:grid-cols-2 gap-12 mb-20 items-center">
           <div className="md:order-2">
             <img
-              src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80"
+              src="/lovable-uploads/87814f94-1fb7-44de-adf5-70a702b60d9a.png"
               alt="Event Photography"
               className="rounded-lg w-full h-[500px] object-cover"
             />

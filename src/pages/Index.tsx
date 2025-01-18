@@ -57,7 +57,7 @@ const Index = () => {
             <ServiceCard
               title="Event Photography"
               description="Capture your events in the most amazing way. Book before a week. Starting from KSH 500"
-              image="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80"
+              image="/lovable-uploads/87814f94-1fb7-44de-adf5-70a702b60d9a.png"
             />
             <ServiceCard
               title="Videography"
