@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import ServiceCard from "@/components/ServiceCard";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   const scrollToServices = () => {
@@ -63,6 +64,11 @@ const Index = () => {
               description="Your life and events as dreams. Top notch filmmaking for your budget. Starting from KSH 500"
               image="https://images.unsplash.com/photo-1601506521793-dc748fc80b67?auto=format&fit=crop&q=80"
             />
+          </div>
+          <div className="text-center mt-8">
+            <Button size="lg" className="bg-primary hover:bg-primary/90" asChild>
+              <Link to="/booking">Book Now</Link>
+            </Button>
           </div>
         </div>
       </section>

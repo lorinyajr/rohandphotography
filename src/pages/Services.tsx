@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -48,8 +49,8 @@ const Services = () => {
               Location, lighting, composition, emotion and technical settings: When all of these elements are well executed, a great portrait is created.
             </p>
             <p className="text-xl font-bold mb-4">From KShs 500</p>
-            <Button size="lg" className="bg-primary hover:bg-primary/90">
-              Book Now
+            <Button size="lg" className="bg-primary hover:bg-primary/90" asChild>
+              <Link to="/booking">Book Now</Link>
             </Button>
           </div>
         </div>
@@ -72,8 +73,8 @@ const Services = () => {
               What is it? A digital record your customer will get from their happy moments with us.
             </p>
             <p className="text-xl font-bold mb-4">From KShs 500</p>
-            <Button size="lg" className="bg-primary hover:bg-primary/90">
-              Book Now
+            <Button size="lg" className="bg-primary hover:bg-primary/90" asChild>
+              <Link to="/booking">Book Now</Link>
             </Button>
           </div>
         </div>
@@ -94,8 +95,8 @@ const Services = () => {
               Location, lighting, composition, emotion and technical settings: When all of these elements are well executed, a great video film is created.
             </p>
             <p className="text-xl font-bold mb-4">From KShs 500</p>
-            <Button size="lg" className="bg-primary hover:bg-primary/90">
-              Book Now
+            <Button size="lg" className="bg-primary hover:bg-primary/90" asChild>
+              <Link to="/booking">Book Now</Link>
             </Button>
           </div>
         </div>
