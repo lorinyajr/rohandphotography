@@ -65,11 +65,6 @@ const Index = () => {
               image="https://images.unsplash.com/photo-1601506521793-dc748fc80b67?auto=format&fit=crop&q=80"
             />
           </div>
-          <div className="text-center mt-8">
-            <Button size="lg" className="bg-primary hover:bg-primary/90" asChild>
-              <Link to="/booking">Book Now</Link>
-            </Button>
-          </div>
         </div>
       </section>
 

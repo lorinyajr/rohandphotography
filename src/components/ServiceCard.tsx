@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 interface ServiceCardProps {
   title: string;
@@ -7,11 +8,6 @@ interface ServiceCardProps {
 }
 
 const ServiceCard = ({ title, description, image }: ServiceCardProps) => {
-  const scrollToServices = () => {
-    const servicesSection = document.getElementById('services-section');
-    servicesSection?.scrollIntoView({ behavior: 'smooth' });
-  };
-
   return (
     <div className="service-card">
       <img
@@ -23,9 +19,9 @@ const ServiceCard = ({ title, description, image }: ServiceCardProps) => {
       <p className="text-gray-600 mb-4">{description}</p>
       <Button 
         className="w-full bg-primary hover:bg-primary/90"
-        onClick={scrollToServices}
+        asChild
       >
-        Book Now
+        <Link to="/booking">Book Now</Link>
       </Button>
     </div>
   );
