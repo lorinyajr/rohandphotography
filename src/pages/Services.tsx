@@ -47,7 +47,7 @@ const Services = () => {
             <p className="font-semibold mb-6">
               Location, lighting, composition, emotion and technical settings: When all of these elements are well executed, a great portrait is created.
             </p>
-            <p className="text-xl font-bold mb-4">From $99</p>
+            <p className="text-xl font-bold mb-4">From KShs 500</p>
             <Button size="lg" className="bg-primary hover:bg-primary/90">
               Book Now
             </Button>
@@ -71,7 +71,7 @@ const Services = () => {
             <p className="font-semibold mb-6">
               What is it? A digital record your customer will get from their happy moments with us.
             </p>
-            <p className="text-xl font-bold mb-4">From $99</p>
+            <p className="text-xl font-bold mb-4">From KShs 500</p>
             <Button size="lg" className="bg-primary hover:bg-primary/90">
               Book Now
             </Button>
@@ -93,7 +93,7 @@ const Services = () => {
             <p className="font-semibold mb-6">
               Location, lighting, composition, emotion and technical settings: When all of these elements are well executed, a great video film is created.
             </p>
-            <p className="text-xl font-bold mb-4">From $99</p>
+            <p className="text-xl font-bold mb-4">From KShs 500</p>
             <Button size="lg" className="bg-primary hover:bg-primary/90">
               Book Now
             </Button>
